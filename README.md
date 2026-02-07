@@ -24,10 +24,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 ```
 
-Or install in development mode:
-```bash
-uv pip install -e .
-```
+This will create a virtual environment and install all dependencies.
 
 3. Open the notebook:
 ```bash
